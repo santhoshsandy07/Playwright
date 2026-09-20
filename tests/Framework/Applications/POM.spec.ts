@@ -27,8 +27,8 @@ let newpage=await createNewContactpage.clickaddcontact();
 let addnewcontact=new Addnewcontact(newpage,context);
 await addnewcontact.addcontactname("SAI SANTHOSH");
 await addnewcontact.addcontactmail("Santhoshravi@gmail.com");
-await addnewcontact.addcontactmobile("9159558188");
-await addnewcontact.addcontacjob("BRILLIO");
+await addnewcontact.addcontactmobile("9955884499");
+await addnewcontact.addcontacjob("SALESFORCE");
 
 
 })
