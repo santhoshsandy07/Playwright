@@ -21,8 +21,8 @@ let createNewContactpage=new CreateNewContactpage(page,context);
 let newpage=await createNewContactpage.clickaddnewcontactbtn();
 
 let addnewcontact=new Addnewcontact(newpage,context);
-await addnewcontact.addcontactname("SAI SANTHOSH");
-await addnewcontact.addcontactmail("Santhoshravi@gmail.com");
+await addnewcontact.addcontactname("SANTHOSH");
+await addnewcontact.addcontactmail("Snthoshravi@gmail.com");
 await addnewcontact.addcontactmobile("9955884499");
 await addnewcontact.addcontacjob("SALES");
 await addnewcontact.selectMale();
