@@ -24,7 +24,7 @@ let addnewcontact=new Addnewcontact(newpage,context);
 await addnewcontact.addcontactname("SAI SANTHOSH");
 await addnewcontact.addcontactmail("Santhoshravi@gmail.com");
 await addnewcontact.addcontactmobile("9955884499");
-await addnewcontact.addcontacjob("SALESFORCE");
+await addnewcontact.addcontacjob("SALES");
 await addnewcontact.selectMale();
 await addnewcontact.selectStatusByIndex(2);
 await addnewcontact.selectSource("Email Campaign");
