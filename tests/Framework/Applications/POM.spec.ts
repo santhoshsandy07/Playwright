@@ -5,7 +5,7 @@ import { CreateNewContactpage } from "../Pages/ContactLeadPage";
 import { Addnewcontact } from "../Pages/AddNewContact";
 
  
-test.only("Login Test Case", async({page,context})=>
+test("Login Test Case", async({page,context})=>
 {
 
 await page.goto("https://apps.theauto-mate.com/crm/login.php");

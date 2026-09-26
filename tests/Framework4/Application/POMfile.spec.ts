@@ -4,7 +4,7 @@ import { Dashboardoverviewpage } from "../Pages/Dashboard";
 import { CreateNewContactpage } from "../Pages/CreateNewcontact";
 import { Addnewcontact } from "../Pages/AddNewContact";
 
-test (`Login Function`,async({page,context})=>
+test.only (`Login Function`,async({page,context})=>
 {
 await page.goto("https://apps.theauto-mate.com/crm/login.php");
 
